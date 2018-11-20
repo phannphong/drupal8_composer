@@ -1,0 +1,14 @@
+uuid: e5263b8a-9737-443c-8b2a-2b273413aec9
+name: 'Drupal8 Install'
+mail: phongphandinhphong@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
