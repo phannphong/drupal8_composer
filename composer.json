@@ -13,13 +13,15 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://asset-packagist.org"
+      "url": "https://packages.drupal.org/8"
     }
   ],
   "require": {
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
     "drupal-composer/drupal-scaffold": "^2.5",
+    "drupal/config_filter": "^1.4",
+    "drupal/config_split": "^1.4",
     "drupal/console": "^1.0.2",
     "drupal/core": "~8.6.3",
     "drush/drush": "^9.0.0",
