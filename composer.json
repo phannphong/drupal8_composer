@@ -26,6 +26,7 @@
     "drupal/console": "^1.0.2",
     "drupal/core": "~8.6.3",
     "drupal/examples": "1.x-dev",
+    "drupal/metatag": "^1.7",
     "drupal/webform": "^5.0@RC",
     "drush/drush": "^9.0.0",
     "vlucas/phpdotenv": "^2.4",
