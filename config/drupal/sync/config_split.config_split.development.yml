@@ -1,11 +1,11 @@
-uuid: 72b18da5-fdf5-44b1-8403-24f1ca54eb96
+uuid: bfdb9922-968c-4088-9f39-48fda5597005
 langcode: en
 status: true
 dependencies: {  }
 id: development
 label: Development
 description: ''
-folder: ../config/development
+folder: ../config/drupal/development
 module:
   field_ui: 0
   views_ui: 0
