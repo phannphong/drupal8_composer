@@ -1,0 +1,54 @@
+# Short (50 chars or less) summary of changes.
+#
+# Rules :
+#   - Start with a capital letter.
+#   - Use 'Fix', 'Add' or 'Change' to start your subject line
+#   - Do not end the subject line with a period
+#
+# Example :
+#   Change 'lastmod' datetime format in sitemap output
+#
+# Subject maximum length
+#------------------------------------------------>
+
+
+# Leave one blank line before and after
+
+# More detailed explanatory text, if necessary.  Wrap it to about 72
+# characters or so.  In some contexts, the first line is treated as the
+# subject of an email and the rest of the text as the body.  The blank
+# line separating the summary from the body is critical (unless you omit
+# the body entirely); tools like rebase can get confused if you run the
+# two together.
+#
+# Further paragraphs come after blank lines.
+#
+#  - Bullet points are okay, too
+#
+#  - Typically a hyphen or asterisk is used for the bullet, preceded by a
+#    single space, with blank lines in between, but conventions vary
+#
+# Example :
+#   The custom code who implement hook_simple_sitemap_arbitrary_links_alter() use datetime format ISO8601 output
+#   2018-06-11T15:21:57+0200 which is not a valid format for site map standard. ISO8601 use 'Y-m-dTH:i:sO' format
+#   against W3C format 'Y-m-dTH:i:sP'.
+#
+#   After applied this commit, the following things must to do :
+#     1. Regenerate the XML sitemap from administration interface
+#     2. Flush HTTP caching to provide the new valid site map
+#
+# Body maximum length
+#------------------------------------------------>
+
+
+# Leave one blank line before and after
+
+---
+
+# Leave one blank line before and after
+
+# Issue tracking platform(s) identifier and link.
+# Example :
+#   * Preview [79099](https://projects.preview.team/project/4238/issues/kanban?issue=73099)
+#   * Jira [79099](https://havas-switzerland.atlassian.net/browse/IEHL-986)
+#   * ...

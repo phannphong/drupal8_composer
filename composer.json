@@ -25,6 +25,8 @@
     "drupal/config_split": "^1.4",
     "drupal/console": "^1.0.2",
     "drupal/core": "~8.6.3",
+    "drupal/examples": "1.x-dev",
+    "drupal/webform": "^5.0@RC",
     "drush/drush": "^9.0.0",
     "vlucas/phpdotenv": "^2.4",
     "webflo/drupal-finder": "^1.0.0",
