@@ -51,6 +51,18 @@
     "files": ["load.environment.php"]
   },
   "scripts": {
+    "drupal-setup": [
+      "bash ./scripts/custom/init.sh"
+    ],
+    "drupal-install": [
+      "bash ./scripts/custom/install.sh"
+    ],
+    "drupal-update": [
+      "bash ./scripts/custom/update.sh"
+    ],
+    "drupal-database-backup": [
+      "bash ./scripts/custom/tasks/database_backup.sh"
+    ],
     "pre-install-cmd": [
       "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
     ],
