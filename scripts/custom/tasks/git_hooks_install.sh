@@ -9,5 +9,5 @@
       mv $PROJECT_PATH/.git/hooks $PROJECT_PATH/.git/old_hooks
 
       echo "${GREEN}symlinking ../scripts/git-hooks .git/hooks${NC}"
-      ln -s $PROJECT_PATH/conf/git/hooks $PROJECT_PATH/.git/hooks
+      ln -s $PROJECT_PATH/config/git/hooks $PROJECT_PATH/.git/hooks
   fi
