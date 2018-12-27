@@ -7,6 +7,10 @@ ENVIRONMENT_MODE="staging"
 ENVIRONMENT_MODE="prod"
 
 # For Drush site-install.
+DB_SU=""
+DB_SU_PW=""
+DB_NAME="drupal8_composer"
+DB_PORT=""
 ACCOUNT_MAIL="admin@example.com"
 ACCOUNT_NAME="admin"
 ACCOUNT_PASS="admin"

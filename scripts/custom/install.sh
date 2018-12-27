@@ -15,6 +15,7 @@ $DRUSH cache:clear drush
 
 echo -e "${LIGHT_GREEN}Install Drupal.${NC}"
 $DRUSH site:install \
+  --db-url=mysql://$DB_SU:$DB_SU_PW@localhost:$DB_PORT/$DB_NAME \
   --account-mail=$ACCOUNT_MAIL \
   --account-name=$ACCOUNT_NAME \
   --account-pass=$ACCOUNT_PASS \
